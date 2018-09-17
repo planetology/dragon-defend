@@ -1,0 +1,14 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: ${project.groupId}.dragondefend.DragonDefend
+author: Planetology
+description: ${project.description}
+website: ${project.url}
+
+commands:
+  team:
+    description: Join a chosen team.
+  setspawn:
+    description: Set a chosen player spawn.
+  setegg:
+    description: Set dragon egg location.
